@@ -1,14 +1,9 @@
 package com.example.mycalculator
 
-import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.ImageButton
-import android.widget.ImageView
-
 import android.widget.TextView
-import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -34,7 +29,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var equal:TextView
     lateinit var expession:TextView
     lateinit var decimal:TextView
-    lateinit var about:ImageView
     var exp:String = ""
 
     var num1:Double = 0.0
@@ -73,7 +67,6 @@ class MainActivity : AppCompatActivity() {
         equal = findViewById(R.id.equal)
         expession = findViewById(R.id.expression)
         decimal = findViewById(R.id.decimal)
-        about = findViewById(R.id.about)
 
     }
 
